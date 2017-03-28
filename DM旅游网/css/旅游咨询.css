@@ -1,0 +1,85 @@
+	/*头部图片区*/
+	.hearderimg{width: 100%;height: 300px;background: linear-gradient(to right bottom ,rgba(0,0,0,0.8),rgba(255,255,255,0) ),url(../img/seach03.jpg) no-repeat center 0;min-width: 1263px;}
+	.hearderimg .center{width: 1200px;margin: 0 auto;height: 300px;position: relative;}
+	.hearderimg hgroup{color: white;padding: 50px 0 0 100px;}
+
+	.contentwarp{width: 1230px;height: auto;margin: 30px auto;}
+	.contentwarp .left{width: 860px;height: auto;float: left;}
+	/*右边三个盒子*/
+	.contentwarp .right{width: 360px;height: auto;float: right;}
+	.right .sidebox{border: 1px solid #eee;padding: 0 0 10px 0;text-align: center;margin-bottom: 10px;}
+	.right .sidebox h3{background-color: #fafafa;height: 40px;line-height: 40px;text-indent: 8px;letter-spacing: 1px;font-weight: normal;color: #888;text-align: left;margin-bottom: 6px;}
+	.right .box1 a{display: inline-block;width: 110px;background-color: #eee;height: 35px;line-height: 35px;margin: 2px 0;color: #999;text-decoration: none;border-radius:5px ;}
+	.right .box3 a:hover,.right .box1 a:hover{background-color: #8FBC8F;color: white;}
+	.right .box2 figure{display: inline-block;width: 160px;padding: 1px;margin: 5px 2px;color: #666666;font-size: 13px;cursor: pointer;}
+	.right .box2 figure img{width: 160px;height: 100px;}
+    .right .box3 a{border-radius:5px;display: inline-block;background-color: #eee;height: 40px;line-height: 40px;color: #999;text-decoration: none;width: 160px;margin: 5px 5px;padding-left: 35px;box-sizing: border-box;} 
+    .right .box3 .weater{background: url(../img/weater.png) no-repeat 20px center #eee;}
+    .right .box3 .train{background: url(../img/tran.png) no-repeat 20px center #eee;}
+    .right .box3 .plan{background: url(../img/plan.png) no-repeat 20px center #eee;}
+    .right .box3 .subway{background: url(../img/subway.png) no-repeat 20px center #eee;}
+	
+	/*旅游咨询的的推荐列表*/
+	.left nav{height: 45px;background-color: #FAFAFA;box-sizing: border-box;}
+	.left a{text-decoration: none;color: #666666;display: block;}
+	.left ul li{display: inline-block;text-align: center;}
+	.left .navleft{float: left;margin-left: 1px;}
+	.left .navleft ul li{width: 145px;height: 42px;line-height: 42px;}
+	.left .navleft .active{background-color: white;border-top:3px solid #8FBC8F ;}
+	.left .navright{float: right;margin-right: 20px;}
+	.left .navright li{width: 60px;height: 30px;line-height: 30px;font-size: 14px;margin-top: 7px;margin-left: 5px;border-radius: 5px ;}
+	.left .navright a.selected,.left .navright a:hover{background-color: #8FBC8F;color: white;border-radius: 5px ;}
+	.left figure{height: 230px;border: 1px solid #EEEEEE;display: inline-block;width: 860px;box-sizing: border-box;margin-top: 10px;position: relative;}
+	.left figure img{width: 380px;height: 230px;float: left;}
+	.left figcaption{float: left;width: 478px;height: 230px;color: #666;}
+	.left figcaption footer{position: absolute;bottom: 0;letter-spacing: 1px;text-indent: 25px;height: 30px;line-height: 30px;background-color: #FAFAFA;width: 478px;} 
+	.left figcaption time{color: #8FBC8F}
+	.left figcaption hgroup{width: 300px;}
+	.left figcaption hgroup h3{font-size: 20px;padding: 10px 0 10px 25px;color: #333;}
+	.left figcaption hgroup h4{font-size: 15px;padding: 10px 0 10px 25px;line-height: 1.5;font-weight: normal;}
+	.left figcaption ol{padding: 0 0 0 25px;list-style: none;line-height: 1.8;color: #666;font-size: 15px;}
+	.left figcaption ol mark{background-color: white;padding: 0 5px;border: 1px solid #8FBC8F;border-radius: 5px;color: #8FBC8F;}
+	.left figcaption .buy{position: absolute;top: 50px;right: 20px;}
+	.left figcaption .buy .price{color: #FF7F50;}
+	.left figcaption .buy .price s{color: #999;font-size: 14px;}
+	.left figcaption .buy .price strong{font-size: 25px;}
+	.left figcaption .buynow{margin-top: 10px;}
+	.left figcaption .buynow a{display: inline-block;width: 130px;height: 35px;background-color: #FF7F50;text-align: center;line-height: 35px;color: white;border-radius: 5px;font-size: 18px;}
+	.left figcaption .type{background-color: darkseagreen;width: 80px;height: 25px;color: #FFFFFF;text-align: center;line-height: 25px;position: absolute;top: 0;left: 0;} 
+	.left figcaption .idsc{position: absolute;right: 0;top: 0;background-color: bisque;width: 80px;height: 30px;line-height: 30px;text-align: right;color: #FF7F50;padding-right: 10px;}
+	.left figcaption .idsc span{width: 30px;height: 30px;float: left;border:15px solid bisque;border-left:15px solid white ;box-sizing: border-box;}
+	.left .more{width: 400px;height: 40px;line-height: 40px;text-align: center;margin: 20px auto;border: 1px solid #ccc;background-color: #FAFAFA;border-radius:10px;cursor: pointer;font-size: 15px;}
+	.left .more:hover{background-color: #8FBC8F;color: white;}
+	
+	
+    /*机票预订*/
+   .planwarp h2{color: #666;font-weight: normal;}
+   .planwarp hr{border: 1px dashed #eee;margin: 10px 0;}
+   .planwarp .nav{height: 40px;line-height: 40px;color: #777;}
+   .planwarp .nav span{padding: 5px 10px;margin-left: 10px;cursor: pointer;}
+   .planwarp .nav li a{display: block;padding: 0 10px;height: 30px;line-height: 30px;}
+   .planwarp .selected,.planwarp li a:hover,.planwarp .nav span:hover{background-color: #8FBC8F;color: white;border-radius: 5px;}
+   .planwarp .top{margin-bottom: 20px;color: #777;}
+   .planwarp .top .left{float: left;width: 40%;}
+   .planwarp .top .center{float: left;width: 40%;}
+   .planwarp .top p{height: 40px;line-height: 40px;}
+   .planwarp .top input{padding: 5px;width: 220px;border: 1px solid #ccc;outline: none;}
+   .planwarp .top .right{float: left;width: 20%;height: 80px;padding: 5px;}
+   .planwarp .top .right button{width: 100%;height: 100%;background-color: #FF7F50;color: white;border: none;border-radius:5px ;font-size: 20px;outline: none;cursor: pointer;}
+   
+   .planwarp .bottom table{width: 100%;border: 1px solid #ddd;border-collapse: collapse;margin-top: 10px;color: #666;}
+   .planwarp .bottom th{border-bottom: 1px solid #ddd;height: 50px;line-height: 50px;color: #444;}
+   .planwarp .bottom td{border-bottom: 1px solid #ddd;text-align: center;height: 40px;line-height: 40px;}
+   .planwarp .bottom tr:nth-child(even){background-color: #FAFAFA}
+   .planwarp .bottom tr:hover{background-color: #eee}
+   .planwarp .bottom tr .price{color: #FF7F50;}
+   .planwarp .bottom td .booking{display: inline-block;height: 35px;width: 100px;color: white;background-color: #FF7F50;line-height: 35px;border-radius: 5px;}
+   
+/*公司简介*/
+   .company h2{color: #666;font-weight: normal;}
+   .company hr{border: 1px dashed #eee;margin: 10px 0;}
+   .company p{line-height: 2;color: #666;}
+   .company section{margin-bottom: 50px;}
+   .company ul li{display: block;text-align: left;line-height: 2;font-style: normal;color: #666;}
+	
+	
